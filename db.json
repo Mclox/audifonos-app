@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Audífonos Gamer Pro",
+      "price": 120,
+      "categoryId": 1,
+      "imageUrl": "https://exitocol.vtexassets.com/arquivos/ids/23277722/audifonos-gamer-bluetooth-inalambricos-g2000-pro-phoinikas-rojo.jpg?v=638545843429070000"
+    },
+    {
+      "id": "2",
+      "name": "Audífonos Bluetooth",
+      "price": 80,
+      "categoryId": 2,
+      "imageUrl": "https://www.alkosto.com/medias/027242925205-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wxMTEyNnxpbWFnZS93ZWJwfGFEZGxMMmcyTXk4eE5ETTFNRFE0TkRjek16azRNaTh3TWpjeU5ESTVNalV5TURWZk1EQXhYemMxTUZkNE56VXdTQXw4OGE0Yzg0MjhlNzlkOGEwNWMzNDdkM2ExM2I0ZjMzNjA4ZDA3NWRmNTEzYzI4YTMyN2VjYmE4ZjQ1ZmZmMzgz"
+    },
+    {
+      "id": "3",
+      "name": "Audífonos de Escritorio",
+      "price": 90,
+      "categoryId": 3,
+      "imageUrl": "https://www.mipcparquecentral.com/cdn/shop/files/ZEUS_PRO_H510-PRO-_1.jpg?v=1743633181"
+    },
+    {
+      "id": "4",
+      "name": "Audífonos con Cable",
+      "price": 50,
+      "categoryId": 4,
+      "imageUrl": "https://foncrea.com/cdn/shop/files/1_4f456b07-a3c5-48ae-954a-a6f408e8410b.jpg?v=1714751564"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Gamer"
+    },
+    {
+      "id": "2",
+      "name": "Inalámbricos"
+    },
+    {
+      "id": "3",
+      "name": "Escritorio"
+    },
+    {
+      "id": "4",
+      "name": "Cable"
+    }
+  ],
+  "clients": [
+    {
+      "id": "1",
+      "name": "Carlos López",
+      "email": "carlos@mail.com",
+      "phone": "321456789",
+      "role": "client"
+    },
+    {
+      "id": "2",
+      "name": "Ana Torres",
+      "email": "ana@mail.com",
+      "phone": "310987654",
+      "role": "client"
+    },
+    {
+      "id": "3",
+      "name": "Juan Restrepo",
+      "email": "Juan@mail.com",
+      "phone": "3147596532",
+      "role": "client"
+    }
+  ],
+  "providers": [
+    {
+      "id": "1",
+      "name": "Proveedor Tech SA",
+      "email": "proveedor@tech.com",
+      "phone": "601123456",
+      "role": "provider"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "1234",
+      "role": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "admin"
+    },
+    {
+      "id": "2",
+      "name": "client"
+    },
+    {
+      "id": "3",
+      "name": "provider"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "name": "Garantía extendida",
+      "description": "Cobertura adicional de 12 meses"
+    },
+    {
+      "id": "2",
+      "name": "Envío rápido",
+      "description": "Entrega en menos de 24 horas"
+    }
+  ]
+}
