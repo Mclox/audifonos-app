@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { AuthContext } from "./AuthContext";
 
 export function AuthProvider({ children }) {
-  const [user, setUser] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [user, setUser] = useState(null); // guardando el usuario autenticado
+  const [loading, setLoading] = useState(true); // 
 
   useEffect(() => {
     const storedUser = localStorage.getItem("user");

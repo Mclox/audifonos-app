@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useAuth } from "../hooks/useAuth";
+import { useAuth } from "../hooks/useAuth"; // me permite autentificar, acceder a la informacion del usuario, iniciar sesion cerrar sesion
 
 function AdminSidebar() {
   const { logout } = useAuth();

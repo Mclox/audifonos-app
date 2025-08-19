@@ -1,15 +1,15 @@
 import { Navigate } from "react-router-dom";
 import { useAuth } from "../hooks/useAuth";
 
-function PrivateRoute({ children }) {
+function PrivateRoute({ children }) { //rutas que requieren autenticación
   const { user, loading } = useAuth();
 
   if (loading) {
-    return <p>Cargando...</p>; // puedes poner spinner elegante
+    return <p>Cargando...</p>; 
   }
 
   if (!user) {
-    return <Navigate to="/login" replace />;
+    return <Navigate to="/login" replace />; //Redirige al login
   }
 
   return children;

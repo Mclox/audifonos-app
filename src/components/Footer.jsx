@@ -6,4 +6,6 @@ function Footer() {
   );
 }
 
-export default Footer; // 👈 esto es lo que falta
+export default Footer;
+
+// representa el pie de página de la aplicación, con un mensaje de derechos de autor
