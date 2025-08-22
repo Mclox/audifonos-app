@@ -27,6 +27,20 @@
       "price": 50,
       "categoryId": 4,
       "imageUrl": "https://foncrea.com/cdn/shop/files/1_4f456b07-a3c5-48ae-954a-a6f408e8410b.jpg?v=1714751564"
+    },
+    {
+      "id": 5,
+      "name": "Audifonos de Estudio",
+      "price": 234,
+      "categoryId": 5,
+      "imageUrl": "https://wondercol.co/cdn/shop/files/gris.jpg?v=1727321114"
+    },
+    {
+      "id": 6,
+      "name": "Adifonos Pro Max Plus",
+      "price": 500,
+      "categoryId": 1,
+      "imageUrl": "https://media.falabella.com/falabellaCO/137409783_01/w=800,h=800,fit=pad"
     }
   ],
   "categories": [
@@ -45,27 +59,31 @@
     {
       "id": "4",
       "name": "Cable"
+    },
+    {
+      "id": 5,
+      "name": "Estudio"
     }
   ],
   "clients": [
     {
       "id": "1",
       "name": "Carlos López",
-      "email": "carlos@mail.com",
+      "email": "carlos@gmail.com",
       "phone": "321456789",
       "role": "client"
     },
     {
       "id": "2",
       "name": "Ana Torres",
-      "email": "ana@mail.com",
+      "email": "ana@gmail.com",
       "phone": "310987654",
       "role": "client"
     },
     {
       "id": "3",
       "name": "Juan Restrepó",
-      "email": "Juan@mail.com",
+      "email": "Juan@gmail.com",
       "phone": "3147596532",
       "role": "client"
     }

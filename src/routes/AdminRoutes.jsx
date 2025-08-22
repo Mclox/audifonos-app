@@ -5,9 +5,9 @@ import PrivateRoute from "../components/PrivateRoute";
 import Dashboard from "../pages/admin/Dashboard";
 
 // Productos
-import ProductList from "../pages/admin/products/ProductList";
-import ProductForm from "../pages/admin/products/ProductForm";
-import ProductEdit from "../pages/admin/products/ProductEdit";
+import ProductList from "../pages/admin/Products/ProductList";
+import ProductForm from "../pages/admin/Products/ProductForm";
+import ProductEdit from "../pages/admin/Products/ProductEdit";
 
 // Categorías
 import CategoryList from "../pages/admin/categories/CategoryList";

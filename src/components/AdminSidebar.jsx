@@ -5,7 +5,7 @@ function AdminSidebar() {
   const { logout } = useAuth();
 
   return (
-    <div className="w-64 h-screen bg-gray-800 text-white flex flex-col">
+    <div className="w-64 bg-gray-800 text-white flex flex-col justify-between h-full">
       <div className="p-6 text-2xl font-bold border-b border-gray-700">
         Admin Panel
       </div>
